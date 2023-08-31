@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Rubik:wght@400;500;600;700&display=swap');
+
+body {
+    background: rgb(135, 135, 170);
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+.adidas {
+    font-size: 2rem;
+}
+
+.nike-container {
+    display: flex;
+    gap: 10px;
+}
+
+.popularimage{
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+    /* display: flex; */
+    gap: 20px;
+    
+}
+
+
+
+.buttonContainer{
+    /* height: 300px; */
+    /* width: 200px; */
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+    padding: 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+/* .text-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+} */
+
+.shoe-name {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.price {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.buy-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background: lightgreen;
+    align-self: center;
+}
+
+/*styling jordans 1*/
+#jordans1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.img1{
+    width: 100px;
+    height: 400px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.intro{
+    font-size: 200px;
+    display: flex;
+}
+
+/*styling adidas*/
+.buttonContainer2{
+    height: 200px;
+    width: 200px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+    gap: 20px;
+    width: 400px;
+
+}
+
+.popularimage2{
+    height: 200px;
+    width: 200px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+    display: grid;
+    gap: 20px;
+    
+}
+
+.adidas-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.adidas-container > .buttonContainer img {
+    height: 300px;
+}

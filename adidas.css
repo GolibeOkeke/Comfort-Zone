@@ -1,0 +1,55 @@
+body {
+    background: rgb(135, 135, 170);
+}
+
+.nike-container {
+    display: flex;
+    gap: 10px;
+}
+
+.popularimage{
+    height: 200px;
+    width: 200px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+
+.buttonContainer{
+    height: 200px;
+    width: 200px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+    gap: 20px;
+    width: 400px;
+
+}
+
+.buttonContainer2{
+    height: 200px;
+    width: 200px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+    gap: 20px;
+    width: 400px;
+
+}
+
+.popularimage2{
+    height: 200px;
+    width: 200px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+    display: grid;
+    gap: 20px;
+    
+}
+
+.adidas-container {
+    display: grid;
+    gap: 10px;
+}

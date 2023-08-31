@@ -1,0 +1,204 @@
+ @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Rubik:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #26333B;
+    --secondary-color: #0B594E;
+}
+body{
+    background-color: rgb(11,89,78);
+    font-family: 'Rubik', sans-serif;
+}
+.logo{
+    margin-right: 750px;
+}
+.title{
+    font-family: 'ADLaM Display', cursive;
+}
+
+/* .heroText{
+    background-image: url(images/bgggg.jpg);
+    padding: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+/*nav bar started here*/
+.navigation{
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky; */
+    background-color: var(--primary-color);
+    margin: 10px;
+    padding: 10px 20px;
+}
+.title{
+    font-size: 35px;
+    font-weight: 1000;
+    color: black;
+    white-space: nowrap;
+}
+.listItems{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    gap: 50px;
+}
+.navigationLinks{
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+/*nav bar ending*/
+
+/*next section*/
+#slogan1{
+    /* height: 550px; */
+    border-radius: 3px;
+    display: flex;
+    background-color:#0B594E;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.heroText{
+    width: 100%;
+    padding: 100px;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+    background-image: url(images/bgggg.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+}
+
+/*BUSINESS IMG (THE FIRST SECTION OF THE WHOLE PAGE)*/
+img{
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+/*business img ending*/
+
+
+.brands{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    /* justify-content: space-around; */
+    /* margin: 100px; */
+}
+
+
+
+/*slogan 2*/
+.heroText2 {
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+button{ 
+    height: 300px;
+    width: 300px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+}
+.shoebrands{
+    display: flex;
+}
+.heroText h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+card{
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+}
+
+.picture{
+    height: 300px;
+    width: 300px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out;   
+}
+
+.picture:hover{
+    transform: scale(1.2);
+}
+
+.text{
+    text-align: center;
+}
+
+/*popular under nike*/
+.populartext{
+ text-align: left;
+ font-size: 35px;
+font-weight: 1000;
+color: white   
+}
+
+.popularimage{
+    height: 200px;
+    width: 200px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+    display: flex;
+}
+
+
+
+.nike-container {
+
+    display: flex;
+}
+
+.buttonContainer{
+    height: 200px;
+    width: 200px;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out; 
+}
